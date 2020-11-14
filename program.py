@@ -15,4 +15,8 @@ def auto():
 
 @app.route('/ssh')
 def ssh():
-    return 'Hello from auto update with ssh by Snegirev'
+    return 'Hello from auto update with ssh'
+
+@app.route('/snegirev')
+def sneg():
+    return 'Hello from CI with GitHub Actions by Snegirev'
